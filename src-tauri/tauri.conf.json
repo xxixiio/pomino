@@ -1,0 +1,31 @@
+{
+  "productName": "Pomino",
+  "identifier": "com.app.pomino",
+  "version": "1.0.1",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Pomino",
+        "resizable": true,
+        "fullscreen": false,
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/app-icon.ico"
+    ],
+    "resources": [
+      "../public/**/*"
+    ]
+  }
+}
