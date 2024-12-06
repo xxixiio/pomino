@@ -4,7 +4,7 @@ Pomino is a minimalist **Pomodoro** timer application built with **Tauri**. It h
 
 ## Features
 
-- **Pomodoro Timer**: A visual timer that counts down a 25-minute work session.
+- **Pomodoro Timer**: A visual timer that counts down a 20-minute work session.
 - **Break Options**: After a Pomodoro session, you can choose between a short break (5 minutes) or a long break (10 minutes).
 - **Session Counter**: Tracks the number of completed Pomodoro cycles.
 - **Timer Controls**: Start, pause, and reset the timer.
